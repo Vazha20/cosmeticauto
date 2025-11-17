@@ -19,7 +19,7 @@ export default function Information() {
   <div className={styles.iconBox}>
     <PhoneOutlined style={{ fontSize: '18px' }} />
   </div>
-  <p>555 555 555</p>
+  <p>558-303-887</p>
 </div>
       </div>
       <div className={`${styles.flex} ${styles.socials}`}>
