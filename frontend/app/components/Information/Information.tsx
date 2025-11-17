@@ -12,7 +12,7 @@ export default function Information() {
   <div className={styles.iconBox}>
     <MailOutlined style={{ fontSize: '18px' }} />
   </div>
-  <p>info@chupstore.ge</p>
+  <p>info@cosmeticauto.ge</p>
 </div>
 
 <div className={styles.callmess}>

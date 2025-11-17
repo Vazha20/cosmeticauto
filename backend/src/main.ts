@@ -13,13 +13,13 @@ async function bootstrap() {
 
   // ✅ CORS ყველა მეთოდზე
   app.enableCors({
-    origin: process.env.FRONT_URL /*|| 'http://localhost:3000'*/,
+    origin: process.env.FRONT_URL || 'http://localhost:3000',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   });
 
-  const PORT = process.env.PORT /*|| 3001*/;
-  /*await app.listen(PORT);*/
-  /*console.log(`🚀 Server running on http://localhost:${PORT}`);*/
+  const PORT = process.env.PORT || 3001;
+  await app.listen(PORT);
+  console.log(`🚀 Server running on http://localhost:${PORT}`);
 }
 bootstrap();

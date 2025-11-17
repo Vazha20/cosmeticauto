@@ -21,8 +21,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chupstore",
-  description: "Chupstore - Online shop",
+  title: "CosmeticAuto.Ge",
+  description: "Cosmeticauto - Online shop",
 };
 if (typeof window !== 'undefined') {
   console.warn = (msg) => {

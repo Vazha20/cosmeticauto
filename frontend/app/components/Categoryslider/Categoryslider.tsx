@@ -6,7 +6,7 @@ import styles from "./Categoryslider.module.css";
 const SingleImage: React.FC = () => {
   return (
     <div className={styles.wrapper}>
-      <img src="/aaaa.jpeg" alt="Fashion" className={styles.img} />
+      <img src="/cos.jpg" alt="Fashion" className={styles.img} />
     </div>
   );
 };

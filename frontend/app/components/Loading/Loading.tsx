@@ -26,7 +26,7 @@ export default function Loading() {
 
   return (
     <div className="container">
-      <h1 className="load">CHUPSTORE</h1>
+      <h1 className="load">COSMETICAUTO.GE</h1>
     </div>
   );
 }

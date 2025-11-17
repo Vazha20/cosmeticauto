@@ -31,7 +31,7 @@ export default function Header() {
 
         <div className={styles.center}>
           <Link href="/">
-            <span className={styles.logo}>CHUPSTORE</span>
+            <span className={styles.logo}>CosmeticAuto</span>
           </Link>
         </div>
 

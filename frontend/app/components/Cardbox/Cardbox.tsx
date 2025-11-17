@@ -8,16 +8,16 @@ import styles from "./Cardbox.module.css";
 
 const categories = [
   { id: 1, name: "ყველა კატეგორია", dark: true, icon: <AppstoreOutlined style={{ fontSize: 28 }} />, href: "/products" },
-  { id: 2, name: "ორეული", image: "/oreuli.png", href: "/products?category=ორეული" },
-  { id: 3, name: "კაბა", image: "/kaba.png", href: "/products?category=კაბა" },
-  { id: 4, name: "შარვალი", image: "/sharvali.png", href: "/products?category=შარვალი" },
-  { id: 5, name: "პერანგი", image: "/perangi.png", href: "/products?category=პერანგი" },
-  { id: 6, name: "ქვედაბოლო", image: "/kvedabolo.png", href: "/products?category=ქვედაბოლო" },
-  { id: 7, name: "პალტო", image: "/palto.png", href: "/products?category=პალტო" },
-  { id: 8, name: "ქურთუკი", image: "/shirt.png", href: "/products?category=ქურთუკი" },
-  { id: 9, name: "მაისური", image: "/shirt.png", href: "/products?category=მაისური" },
-  { id: 10, name: "პიჯაკი", image: "/shirt.png", href: "/products?category=პიჯაკი" },
-  { id: 11, name: "ფრენჩი", image: "/shirt.png", href: "/products?category=ფრენჩი" },
+  { id: 2, name: "ქაფი", image: "/oreuli.png", href: "/products?category=ორეული" },
+  { id: 3, name: "ქაფი", image: "/kaba.png", href: "/products?category=კაბა" },
+  { id: 4, name: "ქაფი", image: "/sharvali.png", href: "/products?category=შარვალი" },
+  { id: 5, name: "ქაფი", image: "/perangi.png", href: "/products?category=პერანგი" },
+  { id: 6, name: "ქაფი", image: "/kvedabolo.png", href: "/products?category=ქვედაბოლო" },
+  { id: 7, name: "ქაფი", image: "/palto.png", href: "/products?category=პალტო" },
+  { id: 8, name: "ქაფი", image: "/shirt.png", href: "/products?category=ქურთუკი" },
+  { id: 9, name: "ქაფი", image: "/shirt.png", href: "/products?category=მაისური" },
+  { id: 10, name: "ქაფი", image: "/shirt.png", href: "/products?category=პიჯაკი" },
+  { id: 11, name: "ქაფი", image: "/shirt.png", href: "/products?category=ფრენჩი" },
 ];
 
 export default function Cardbox() {
