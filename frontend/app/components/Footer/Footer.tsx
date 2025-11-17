@@ -25,7 +25,7 @@ export default function Footer() {
         <div className={styles.section}>
           <h4>კონტაქტი</h4>
           <p>Email: info@cosmeticauto.ge</p>
-          <p>ტელეფონი: +995 555 555 555</p>
+          <p>ტელეფონი: +995 558-303-887</p>
           <div className={styles.socials}>
             <FacebookFilled />
             <InstagramFilled />
@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
 
      <div className={styles.bottom}>
-  &copy; {new Date().getFullYear()} CHUPSTORE. ყველა უფლება დაცულია. Powered by <Link className={styles.webers} href="https://www.facebook.com/profile.php?id=61577946634847" target="_blank" rel="noopener noreferrer">Webers.ge</Link>
+  &copy; {new Date().getFullYear()} COSMETICAUTO. ყველა უფლება დაცულია. Powered by <Link className={styles.webers} href="https://www.facebook.com/profile.php?id=61577946634847" target="_blank" rel="noopener noreferrer">Webers.ge</Link>
 </div>
 
     </footer>
