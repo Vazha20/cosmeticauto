@@ -8,16 +8,14 @@ import styles from "./Cardbox.module.css";
 
 const categories = [
   { id: 1, name: "ყველა კატეგორია", dark: true, icon: <AppstoreOutlined style={{ fontSize: 28 }} />, href: "/products" },
-  { id: 2, name: "ქაფი", image: "/oreuli.png", href: "/products?category=ორეული" },
-  { id: 3, name: "ქაფი", image: "/kaba.png", href: "/products?category=კაბა" },
-  { id: 4, name: "ქაფი", image: "/sharvali.png", href: "/products?category=შარვალი" },
-  { id: 5, name: "ქაფი", image: "/perangi.png", href: "/products?category=პერანგი" },
-  { id: 6, name: "ქაფი", image: "/kvedabolo.png", href: "/products?category=ქვედაბოლო" },
-  { id: 7, name: "ქაფი", image: "/palto.png", href: "/products?category=პალტო" },
-  { id: 8, name: "ქაფი", image: "/shirt.png", href: "/products?category=ქურთუკი" },
-  { id: 9, name: "ქაფი", image: "/shirt.png", href: "/products?category=მაისური" },
-  { id: 10, name: "ქაფი", image: "/shirt.png", href: "/products?category=პიჯაკი" },
-  { id: 11, name: "ქაფი", image: "/shirt.png", href: "/products?category=ფრენჩი" },
+  { id: 2, name: "ქიმწმენდის საშუალება", image: "/qq.png", href: "/products?category=ორეული" },
+  { id: 3, name: "ცვილი", image: "/kaba.png", href: "/products?category=კაბა" },
+  { id: 4, name: "ტყავის რესტავრაცია/მოვლა", image: "/perangi.png", href: "/products?category=პერანგი" },
+  { id: 5, name: "საბურავი/პლასტმასის გასაშავებლი", image: "/shirt.png", href: "/products?category=ქურთუკი" },
+  { id: 6, name: "უკონტაქტო საწმენდი საშუალება(ქაფი)", image: "/shirt.png", href: "/products?category=პიჯაკი" },
+  { id: 7, name: "ძრავის საწმენდი საშუალება", image: "/shirt.png", href: "/products?category=ფრენჩი" },
+  { id: 8, name: "ძარის საწმენდი ტილო", image: "/shirt.png", href: "/products?category=ფრენჩი" },
+  { id: 9, name: "სუნის არომატიზატორები", image: "/shirt.png", href: "/products?category=ფრენჩი" },
 ];
 
 export default function Cardbox() {
